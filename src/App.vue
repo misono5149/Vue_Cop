@@ -1,0 +1,29 @@
+<template>
+  <div id="app">
+    <Nav/>
+    <img src="./assets/logo.png">
+    <router-view/>
+  </div>
+</template>
+
+<script>
+import Nav from '@/components/Navi'
+
+export default {
+  name: 'App',
+  components: { //재사용 가능
+    Nav
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
