@@ -4,6 +4,17 @@
 
 ## Build Setup
 
+first of all
+you must install npm or yarn // and node
+
+and then
+
+### npm install vue-cli -g
+
+and
+
+### git clone this project
+
 ``` bash
 # install dependencies
 npm install
